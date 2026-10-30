@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: muthu-youtube-bot
+    runtime: docker
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
